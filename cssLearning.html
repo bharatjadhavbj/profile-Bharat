@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Learning</title>
+    <!---->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+       /* Name Selector */
+        /* p{
+          color: cadetblue;  
+        } */
+        /* Id Selector */
+        #java{
+            color: cadetblue;
+            font-size: larger;
+        }
+        /* Class Selector */
+        .nonDeveloper{
+            color: chocolate;
+            font-weight: bold;
+        }
+        /* Combinator Selector */
+         #java,.nonDeveloper{
+            background-color:yellow;
+        } 
+        #web
+        {
+            color: red;
+        }
+        #para{
+            text-decoration: underline;
+            font-size: larger;
+            font-weight: bolder;
+            text-transform: capitalize;
+            color: rgb(187, 123, 5);
+            text-align: left;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }    
+        #friends li{
+            list-style-type: upper-roman;
+            padding: 10px;
+        }
+        </style>
+</head>
+<body>
+    <h2 style="color:orange;background-color: grey;">Professional Summary</h2>
+    <p>I am UI Developer</p>
+    <p id="java">I am Java Developer</p>
+    <p class="nonDeveloper">I am test Engg</p>
+    <p class="nonDeveloper">I am soft Engg</p>
+    <h2>Skills</h2>
+    <p style="font-weight: bolder;">HTML and CSS</p>
+    <p>JavaScript</p>
+    <p id="dsa">I am very good in <span id="web">web devlopment</span>  and DSA</p>
+    <p id="para">i am learnng CSS and enjoing too</p>
+   <h2>List Of Friends</h2>
+    <ol id="friends">
+        <li>Jenny</li>
+        <li>Bill</li>
+        <li>Stew</li>
+        <li>Elon</li>
+    </ol>
+
+    <h2>Books I read</h2>
+    <ol>
+        <li>Autobiography of Yogi</li>
+        <li>Ikagai</li>
+        <li>Atomic Habit</li>
+        <li>Seven Habit</li>
+    </ol>
+    <hr>
+    <i class="fa fa-user-o" aria-hidden="true"></i><span>Bharat</span>
+</body>
+</html>

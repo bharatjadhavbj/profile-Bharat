@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <!--Link of Font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+    <!-- CDN Link - Google font families -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Poppins&family=Roboto:wght@500;900&display=swap" rel="stylesheet">
+
+    <style>
+        span{
+          color: rgb(1, 10, 65);
+        }
+        nav a{
+          margin-right: 90px;
+          margin-left: 40px;
+          font-family: 'Poppins',sans-serif;
+          text-decoration: none;
+        }
+        #margin{
+          margin-left: 20px;
+        }
+        footer a{
+          margin-right: 20px;
+          text-decoration: none;
+          
+        }
+        header span{
+          margin-right: 20px;
+          
+        }
+        header{
+            text-align: right;
+            font-family: "Poppins", sans-serif;
+            background-color: rgb(127, 127, 255);
+          }
+          #logo{
+            margin:5px;
+            margin-right: 600px;
+          } 
+        body{
+        background-image: url(assets/developer1.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:auto;
+      }
+      </style></head>
+<body>
+<!-- HEADER  SECTON -->
+<header>
+  <img id="logo" src="assets/namelogo1.png" alt="logo" style="height: 30px;" >
+    <span><i class="fa fa-user-o" aria-hidden="true"></i>&nbsp;&nbsp;Name:Bharat Jadhav</span><span><i class="fa fa-mobile" aria-hidden="true"></i>&nbsp;&nbsp;Mobile:8605 43 8778</span>  <span><i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp;&nbsp;Email:bjsj@gmail.com</span>
+  </header>
+  <hr />
+  <!-- Nevigation Section -->
+  <nav>
+    <a id="margin" href="home.html" target="mainFrame"><strong>HOME</strong></a> 
+    <a href="techStack.html" target="mainFrame"><strong>TECH STACK</strong></a> 
+    
+    <a href="project.html" target="mainFrame"><strong>PROJECT</strong></a> 
+    
+    <a href="education.html" target="mainFrame"><strong>EDUCATION</strong></a>
+    
+    <a href="others.html" target="mainFrame"><strong>OTHERS</strong></a>
+  </nav>
+  <hr />
+  <!-- BODY SECTION -->
+  <iframe
+      src="home.html"
+      name="mainFrame"
+      frameborder="14"
+      width="1260px"
+      height="500px"
+    >
+    </iframe>
+<!-- FOOTER SECTION -->
+<footer>
+    <span>
+        <a href=""><i class="fa fa-github-square" aria-hidden="true"></i></a>
+    </span>
+    <span>
+        <a href=""><i class="fa fa-github" aria-hidden="true"></i></a>
+    </span>
+    <span>
+        <a href=""><i class="fa fa-laptop" aria-hidden="true"></i></a>
+    </span>
+</footer>
+</body>
+</html>
