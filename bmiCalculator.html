@@ -4,80 +4,34 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>BMI Calculator</title>
-  <style>
-    #frameMain{
-      border: 1px solid black;
-      height: 430px;
-      width: 580px;
-      background: rgb(82, 169, 250);
-      border-radius: 20px;
-    }
-    h2{
-      text-align: center;
-    }
-    #height,#weight{
-      border-radius: 10px;
-      display: inline-block;
-      /* float: left; */
-      border: 1px solid black;
-      height: 100px;
-      margin: 20px;
-      padding: 25px;
-      background-color: blanchedalmond;
-    }
-    #bmical{
-      text-align: center;
-      border-radius: 10px;
-      border: 1px solid black;
-      margin: 1px;
-      padding-left: 50px;
-      padding: 10px;
-      padding-right: 250px;
-      background-color: blanchedalmond;
-    }
-    button{
-      margin-left: 20px;
-      width: 500px;
-    }
-    #resultBmi{
-      text-align: center;
-    }
-    #Calculate{
-      background-color: rgb(102, 102, 247);
-    }
-    #Reset{
-      background-color: rgb(252, 43, 43);
-    }
-    #htwe{
-      margin: 10px;
-      border-radius: 10px;
-      border: 1px solid black;
-      height: 270px;
-      width: 550px;
-      background-color: aliceblue;
-    }
-  </style>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <form action="">
   <div id="frameMain">
     <h2>BMI Calculator</h2>
     <div id="resultBmi">
-     <span id="bmical" >Your BMI = </span><br><br>
+     <h3 id="bmical">Your BMI =  </h3>
+     <br>
     </div>
     <div id="htwe">
       <section id="height">
-        <span>Height ( cm )</span><br><br>
-      <input type="text" inputmode="numeric" id="inputHeight">
+        <span>Height ( cm. )</span><br><br>
+      <input type="number" id="inputHeight" required >
       </section>
       <section id="weight">
         <span>Weight ( kg )</span>
         <br><br>
-        <input type="text" inputmode="numeric" id="inputWeight" >
+        <input type="number" id="inputWeight" required>
       </section>
-    <button id="Calculate" >Calculate BMI</button><br><br>
-    <button id="Reset" >Reset</button>
+    <button id="Calculate" type="submit">Calculate BMI</button><br><br>
+    <button id="Reset" type="reset">Reset</button>
     </div>
-
   </div>
+</form>
 </body>
 </html>
+
+
+
+

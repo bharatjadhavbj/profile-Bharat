@@ -1,0 +1,51 @@
+#frameMain{
+    border: 1px solid black;
+    height: 450px;
+    width: 580px;
+    background: rgb(82, 169, 250);
+    border-radius: 20px;
+  }
+  h2{
+    text-align: center;
+  }
+  #height,#weight{
+    border-radius: 10px;
+    display: inline-block;
+    /* float: left; */
+    border: 1px solid black;
+    height: 100px;
+    margin: 20px;
+    padding: 25px;
+    background-color: blanchedalmond;
+  }
+  #bmical{
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin: 1px;
+    padding-left: 50px;
+    padding: 10px;
+    padding-right: 250px;
+    background-color: blanchedalmond;
+  }
+  button{
+    margin-left: 20px;
+    width: 500px;
+  }
+  #resultBmi{
+    text-align: center;
+  }
+  #Calculate{
+    background-color: rgb(102, 102, 247);
+  }
+  #Reset{
+    background-color: rgb(252, 43, 43);
+  }
+  #htwe{
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    height: 270px;
+    width: 550px;
+    background-color: aliceblue;
+  }
