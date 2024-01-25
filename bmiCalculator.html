@@ -5,13 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>BMI Calculator</title>
 <link rel="stylesheet" href="style.css">
+<script src="./myBMICal.js" defer></script>
 </head>
-<body>
-  <form action="">
+<body> 
   <div id="frameMain">
     <h2>BMI Calculator</h2>
     <div id="resultBmi">
-     <h3 id="bmical">Your BMI =  </h3>
+     <h3>Result :</h3><h3 id="bmical"></h3>
      <br>
     </div>
     <div id="htwe">
@@ -24,11 +24,10 @@
         <br><br>
         <input type="number" id="inputWeight" required>
       </section>
-    <button id="Calculate" type="submit">Calculate BMI</button><br><br>
-    <button id="Reset" type="reset">Reset</button>
+    <button id="calculate" type="submit">Calculate BMI</button><br><br>
+    <button id="reset" type="reset">Reset</button>
     </div>
   </div>
-</form>
 </body>
 </html>
 

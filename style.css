@@ -35,10 +35,10 @@
   #resultBmi{
     text-align: center;
   }
-  #Calculate{
+  #calculate{
     background-color: rgb(102, 102, 247);
   }
-  #Reset{
+  #reset{
     background-color: rgb(252, 43, 43);
   }
   #htwe{
@@ -49,3 +49,6 @@
     width: 550px;
     background-color: aliceblue;
   }
+h3{
+  display: inline;
+}
